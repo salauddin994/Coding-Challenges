@@ -76,7 +76,7 @@ $(document).ready(function() {
           <tr class="info">
             <td>Coding-Challenges</td>
                           <td>1</td>
-                        <td>07 May 2021, 19:43</td>
+                        <td>08 May 2021, 02:26</td>
           </tr>
         </tbody>
       </table>
@@ -98,7 +98,53 @@ $(document).ready(function() {
 <div class="container-fluid" id="summary">
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
-              <p>You have no features in your cucumber report</p>
+              <table id="tablesorter" class="stats-table table-hover">
+
+          <thead>
+            <tr class="header">
+              <th>Implementation</th>
+              <th>Occurrences</th>
+              <th>Duration</th>
+              <th>Average</th>
+              <th>Ratio</th>
+            </tr>
+          </thead>
+
+          <tbody>
+                          <tr>
+                <td class="location">StepDep.Hook.openBrowser()</td>
+                <td>1</td>
+                <td class="duration" data-value="6406000000">6s 406ms</td>
+                <td class="duration" data-value="6406000000">6s 406ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDep.Hook.tearDown()</td>
+                <td>1</td>
+                <td class="duration" data-value="671000000">671ms</td>
+                <td class="duration" data-value="671000000">671ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDep.login_step.iAmAtTalenttekHomePage()</td>
+                <td>1</td>
+                <td class="duration" data-value="1000000">001ms</td>
+                <td class="duration" data-value="1000000">001ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                      </tbody>
+
+          <tfoot class="total">
+            <tr>
+              <td>3</td>
+              <td>3</td>
+              <td class="duration">7s 078ms</td>
+              <td class="duration">2s 359ms</td>
+              <td>Totals</td>
+            </tr>
+          </tfoot>
+
+        </table>
           </div>
   </div>
 </div>

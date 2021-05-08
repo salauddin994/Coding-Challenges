@@ -1,4 +1,5 @@
 Base\TestData.class
+StepDep\login_step.class
 Base\Config.class
 Base\Util.class
 TestRunner.class
