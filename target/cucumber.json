@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-05-08T06:26:40.453Z",
+        "start_timestamp": "2021-05-08T06:45:00.532Z",
         "before": [
           {
             "result": {
-              "duration": 6406000000,
+              "duration": 3313000000,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 671000000,
+              "duration": 694000000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,6 @@
         "steps": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 3,
