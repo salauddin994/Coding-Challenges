@@ -28,14 +28,14 @@ public class Hook extends Config {
         driver=initdriver(browserType);
         switch (baseURL){
             case "qa":
-                URL="http://qa.taltektc.com/";
+                URL="https://www.amazon.com/";
                 break;
 
             case "stage":
-                URL="http://stage.taltektc.com/";
+                URL="https://www.amazon.com/";
                 break;
             case "prod":
-                URL="http://taltektc.com/";
+                URL="https://www.amazon.com/";
                 break;
 
         }
@@ -45,7 +45,7 @@ public class Hook extends Config {
 
     @After
     public void tearDown(){
-        driver.quit();
+//        driver.quit();
     }
 
 

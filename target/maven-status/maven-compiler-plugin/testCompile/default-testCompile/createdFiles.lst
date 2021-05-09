@@ -1,6 +1,7 @@
-Base\TestData.class
-StepDep\login_step.class
 Base\Config.class
 Base\Util.class
+Base\TestData.class
+StepDep\login_step.class
 TestRunner.class
+pageObject\logIn_Page.class
 StepDep\Hook.class
